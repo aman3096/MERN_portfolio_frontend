@@ -1,0 +1,26 @@
+.contains {
+    margin-top: 2rem;
+}
+.mail {
+    width:30px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.address {
+    color: gray;
+}
+
+.curved {
+    border-radius: 20px;
+}
+
+.paper {
+    background-color: azure;
+    width:80%;
+    margin: auto;
+    margin-top: 10rem;
+    padding:1rem 1rem 1rem 5rem;
+    border-radius: 20px;
+
+}

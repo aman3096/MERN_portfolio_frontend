@@ -1,0 +1,13 @@
+.logins{
+  
+    width: 80%;
+    margin: auto;
+    margin-top:10rem;
+    padding:3rem;
+    background:#fafafa;
+    border-radius:20px;
+    box-shadow: 5px 10px #696969;
+}
+.mars {
+    margin-right: 2rem;
+}
