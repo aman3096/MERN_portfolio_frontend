@@ -1,0 +1,21 @@
+.absolut {
+    border: 1px solid;
+    height: 100vh;
+    margin: 4rem;
+    margin-top: 10rem;
+}
+
+.united {
+    padding:1rem;
+}
+
+.img-dim {
+    width:15rem;
+    margin: 2rem;
+    margin-left:6rem;
+}
+
+.endd {
+    text-align:end;
+    color:brown;
+}

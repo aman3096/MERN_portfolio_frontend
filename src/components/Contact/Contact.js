@@ -15,7 +15,7 @@ const Contact = () => {
               </div>
           </div>  
         </div>
-        <div className="col ">
+        <div className="col">
           <div className="p-3 border bg-light d-flex justify-content-start align-items-center curved">
           <img src={Location} className="mail"/>
 
@@ -29,9 +29,24 @@ const Contact = () => {
 
       <div className="align-items-center paper" >
         <h1>Get in Touch</h1> 
-        <div>
-          <input className='input' type="text" />
+        <div className="row g-5">
+          <div className="col">
+            <input className="input form-control" placeholder="Your Name"  type="text" />
+          </div>
+          <div className="col">
+            <input className="input form-control" placeholder="Your Email"  type="text" />
+          </div>
+          <div className="col">
+            <input className="input form-control" placeholder="Your Phone"  type="text" />
+          </div>
+          <div className="col-12">
+            <textarea placeholder="Your Message" rows="5" className="input form-control"/> 
+           </div>
+           <div className="col-6">
+          <button className="btn btn-primary">Send Message</button>
         </div>
+        </div>
+        
       </div>
 
     </div>
